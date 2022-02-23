@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  serverUrl:"https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook",
+  defaultLanguage:"pt-BR",
+  supportedLanguages: ["en-US", "pt-BR"]
 };
 
 /*
